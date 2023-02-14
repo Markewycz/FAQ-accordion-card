@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <div class="header">
+          <!-- <img class="header-img" src="./images/illustration-woman-online-mobile.svg" alt="" /> -->
+          <svg class="header-img" height="230">
+            <defs>
+              <filter id="shadow">
+                <feDropShadow dx="0" dy="27" stdDeviation="1" flood-color="rgb(100 0 255 / 0.1)"/>
+              </filter>
+            </defs>
+            <image xlink:href="./images/illustration-woman-online-mobile.svg" width="100%" height="100%" filter="url(#shadow)" />
+          </svg>
+          <h1>FAQ</h1>
+        </div>
+        <div class="faq">
+          <div class="faq-questions">
+            <p class="question" data-question="1">How many team members can I invite?</p>
+            <p class="answer answer--1">You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
+            <img class="arrow arrow--1" src="./images/icon-arrow-down.svg"></img>
+          </div>
+          <div class="faq-questions">
+            <p class="question" data-question="2">What is the maximum file upload size?</p>
+            <p class="answer answer--2">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+            <img class="arrow arrow--2" src="./images/icon-arrow-down.svg"></img>
+          </div>
+          <div class="faq-questions">
+            <p class="question" data-question="3">How do I reset my password?</p>
+            <p class="answer answer--3">Click “Forgot password” from
+              the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
+            <img class="arrow arrow--3" src="./images/icon-arrow-down.svg"></img>
+          </div>
+          <div class="faq-questions">
+            <p class="question" data-question="4">Can I cancel my subscription?</p>
+            <p class="answer answer--4">Yes! Send us a message and we’ll process your request no questions asked.</p>
+            <img class="arrow arrow--4" src="./images/icon-arrow-down.svg"></img>
+          </div>
+          <div class="faq-questions">
+            <p class="question" data-question="5">Do you provide additional support?</p>
+            <p class="answer answer--5">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+            <img class="arrow arrow--5" src="./images/icon-arrow-down.svg"></img>
+        </div>
+      </div>
+      </div>
+    </main>
+
+    <!--     -->
+  </body>
+</html>
