@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport-fit=cover" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -44,9 +45,18 @@
             </defs>
             <image xlink:href="./images/illustration-woman-online-mobile.svg" width="100%" height="100%" filter="url(#shadow)" />
           </svg>
-          <h1>FAQ</h1>
+          
+          <svg class="img-desktop" height="350">
+            <defs>
+              <filter id="shadow">
+                <feDropShadow dx="0" dy="27" stdDeviation="1" flood-color="rgb(100 0 255 / 0.1)"/>
+              </filter>
+            </defs>
+            <image xlink:href="./images/illustration-woman-online-desktop.svg" width="100%" height="100%" filter="url(#shadow)" />
+          </svg>
         </div>
         <div class="faq">
+          <h1>FAQ</h1>
           <div class="faq-questions">
             <p class="question" data-question="1">How many team members can I invite?</p>
             <p class="answer answer--1">You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
