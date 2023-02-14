@@ -36,24 +36,33 @@
     <main>
       <div class="card">
         <div class="header">
-          <!-- <img class="header-img" src="./images/illustration-woman-online-mobile.svg" alt="" /> -->
-          <svg class="header-img" height="230">
+          <svg class="img-mobile" height="230">
             <defs>
-              <filter id="shadow">
+              <filter id="shadow1">
                 <feDropShadow dx="0" dy="27" stdDeviation="1" flood-color="rgb(100 0 255 / 0.1)"/>
               </filter>
             </defs>
-            <image xlink:href="./images/illustration-woman-online-mobile.svg" width="100%" height="100%" filter="url(#shadow)" />
+            <image xlink:href="./images/illustration-woman-online-mobile.svg" width="100%" height="100%" filter="url(#shadow1)" />
           </svg>
-          
-          <!-- <svg class="img-desktop" height="350">
-            <defs>
-              <filter id="shadow">
+          <div class="desktop-version">
+            <svg class="img-box">
+              <defs>
+                <filter id="shadow3">
+                <feDropShadow dx="0" dy="21" stdDeviation="1" flood-color="rgb(100 0 255 / 0.1)"/>
+              </filter>
+              </defs>
+              <image xlink:href="./images/illustration-box-desktop.svg" width="100%" height="100%" filter="url(#shadow3)" />></image>
+            </svg>
+            <svg class="img-desktop">
+              <defs>
+                <filter id="shadow">
                 <feDropShadow dx="0" dy="27" stdDeviation="1" flood-color="rgb(100 0 255 / 0.1)"/>
               </filter>
             </defs>
             <image xlink:href="./images/illustration-woman-online-desktop.svg" width="100%" height="100%" filter="url(#shadow)" />
-          </svg> -->
+            </svg>
+           
+          </div>
         </div>
         <div class="faq">
           <h1>FAQ</h1>
@@ -86,7 +95,5 @@
       </div>
       </div>
     </main>
-
-    <!--     -->
   </body>
 </html>
