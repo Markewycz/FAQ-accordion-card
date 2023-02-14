@@ -115,7 +115,7 @@ h1 {
 
 @media screen and (min-width: 910px) {
   .card {
-    width: 600px;
-    max-width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
