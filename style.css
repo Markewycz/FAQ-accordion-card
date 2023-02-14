@@ -152,7 +152,6 @@ h1 {
 
   .img-desktop {
     display: block;
-    object-fit: contain;
     z-index: 1;
     transform: translate(-70px);
     height: 359px;
@@ -162,7 +161,6 @@ h1 {
   .img-box {
     display: block;
     position: absolute;
-    object-fit: contain;
     transform: translate(-80px, 135px);
     z-index: 2;
     width: 191px;
